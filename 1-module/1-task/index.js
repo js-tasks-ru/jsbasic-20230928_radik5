@@ -4,7 +4,7 @@ function factorial(n) {
   if (n === 1) return 1;
   let accumulator = 1;
   for (let i = 1; i <= n; i++) {
-    accumulator = accumulator*i;
+    accumulator = accumulator * i;
   }
   return accumulator;
 }
