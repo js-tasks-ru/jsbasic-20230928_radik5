@@ -1,6 +1,5 @@
 function ucFirst(str) {
-  // if (arguments.length === 0 || arguments[0] === null) return undefined;
-  if (!str) return undefined;
+  if (arguments.length === 0 || arguments[0] === null) return undefined;
   if (arguments[0] === '') return '';
 
   let arrChar = str.split(""); // создание массива символов
