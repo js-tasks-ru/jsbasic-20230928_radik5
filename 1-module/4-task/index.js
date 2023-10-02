@@ -1,3 +1,7 @@
 function checkSpam(str) {
-  // ваш код...
+  // Напишите функцию checkSpam(str), возвращающую true,
+  // если str содержит '1xBet' или 'XXX', а иначе false.
+  // Функция должна быть нечувствительна к регистру.
+  const regexp = /1xBet|XXX/i;
+  return regexp.test(str);
 }
